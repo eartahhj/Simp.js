@@ -41,7 +41,7 @@ var loadSimp = (options = {}) => {
                 }
             }
         
-            // If the file names container has not been set in the options, try to take it from data attributes
+            // If the file names container has not been set in the options, try taking it from data attributes
             if (!namesContainerSelector) {
                 try {
                     if (typeof input.dataset.namesContainerSelector == 'undefined' || input.dataset.namesContainerSelector == '') {

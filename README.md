@@ -114,6 +114,7 @@ config = {
 };
 ```
 
+Options:
 - `inputSelector` (mandatory) [string] - you can mark all your file inputs with this selector, like class="simp"
 - `fileNamesMustBeShown` (mandatory) [bool] - if true, it will throw a warning in the console whenever namesContainerSelector has not been defined, either in the options or in the data attributes
 - `previewContainerSelector` (optional) [string] - where to show the previews of the images being uploaded
