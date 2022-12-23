@@ -1,0 +1,12 @@
+/*
+* Plugin: Simp.js -> Simple Image Preview Javascript Plugin
+* Description: A very simple, lightweight and easy Vanilla JS plugin for showing image previews on your file inputs
+* Author: eartahhj -> https://github.com/eartahhj/
+* Version: 1.0.0
+* 
+*/
+
+.files-names-container { font-weight:bold; }
+
+.images-previews-container ol { list-style-type:none; margin-left:0; padding-left:0; display:grid; align-items:stretch;  column-gap:0.5rem; row-gap:0.5rem; grid-template-columns:repeat(auto-fit, minmax(150px, 0.33fr)); }
+.images-previews-container img { display:block; min-width:150px; padding:0.25rem; border:1px solid #666; }

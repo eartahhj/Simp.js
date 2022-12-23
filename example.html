@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simp.js</title>
+    <link href="/js/simpjs/simp.css" rel="stylesheet">
+    <script src="/js/simpjs/simp.js"></script>
+    <script src="/js/simp/simp-init.js"></script>
+</head>
+<body>
+    <main>
+        <form action="index.html" method="post" enctype="multipart/form-data">
+            <label class="label" for="images">Image</label>
+            <input type="file" name="images" id="images" class="simp" accept="image/*" data-preview-container-selector="#images-previews" data-names-container-selector="#file-names" multiple>
+            <p class="mt-2">
+                <button type="submit">Send</button>
+            </p>
+            <p>File names will be shown here:</p>
+            <span id="file-names" class="files-names-container">
+            </span>
+            <p>Image previews will be shown here:</p>
+            <div id="images-previews" class="images-previews-container"></div>
+        </form>
+    </main>
+</body>
+</html>
