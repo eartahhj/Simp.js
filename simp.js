@@ -6,7 +6,7 @@
 * 
 */
 
-var loadSimp = (options = {}) => {
+const loadSimp = (options = {}) => {
     let inputSelector = options.inputSelector ?? '';
     let fileNamesMustBeShown = options.fileNamesMustBeShown ? true : false;
     let previewContainerSelector, namesContainerSelector;
