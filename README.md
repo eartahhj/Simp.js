@@ -12,7 +12,7 @@ Because it is very **easy, lightweight, free and open source**. In case you want
 And it is not even minified!
 
 ## Demo
-See the demo here: [Simpjs demo](https://differentdev.it/demo/simpjs/index.html)
+See the demo here: [Simpjs demo](https://www.devlancer.it/demo/simpjs/index.html)
 
 ## Installation
 Clone the repo or download the raw files you need. Actually, you might want to download **only the main simp.js file**, then use your own stylesheet and init javascript.
@@ -96,7 +96,7 @@ Just use the **same selector** for all the inputs (recommended: use `class="simp
 ### Preview container
 It will look something like this:
 
-![Simp.js images preview demo](https://differentdev.it/demo/simpjs/simpjs-demo.png)
+![Simp.js images preview demo](https://www.devlancer.it/demo/simpjs/simpjs-demo.png)
 
 ### Filenames container
 This is the place where the file names will be added into. You might prefer to keep the browser default, so it is just optional.
@@ -120,7 +120,7 @@ Options:
 - `previewContainerSelector` (optional) [string] - where to show the previews of the images being uploaded
 - `namesContainerSelector` (optional) [string] - where to show the file names of the images being uploaded
 
-Please note that using `previewContainerSelector` or `namesContainerSelector` in the options is good **only if you have one single place where to show previews or file names**. If, let's say, you have 3 different file inputs, and each of them has a different place (like a div element) where to show previews or file names, then **please use the data attributes** as described below.
+Please note that using `previewContainerSelector` or `namesContainerSelector` in the options is good **only if you have one single place where to show previews or file names**. If, let's say, you have 3 different file inputs, and each of them has its own place (like a div element) where to show previews or file names, then **please use the data attributes** as described below.
 
 ### Data attributes
 This plugin **will automatically look for the following data-attributes**, which are useful expecially if you are using **multiple file inputs with multiple places** (html elements) where to show the previews or the file names:
