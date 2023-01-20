@@ -5,6 +5,11 @@ Then this is the right plugin for you.
 I have tried other plugins before creating my own, like *Filepond, dropzone, file-upload-with-preview*, but all of them where not doing what I wanted, or at least not easily enough. I also needed to be able to **actually upload the images with PHP**, not just show them, and keep the "name" attribute for my inputs. This was not the case for most of the plugins I tried.
 In a few words, since I was not able to find an easy solution, I created one.
 
+### Preview container
+It will look something like this:
+
+![Simp.js images preview demo](https://www.devlancer.it/demo/simpjs/simpjs-demo.png)
+
 ## Why should you use Simp.js?
 Because it is very **easy, lightweight, free and open source**. In case you want to customize it, you will just need some Javascript knowledge, the code is very readable and consists of just a few lines in total.
 
